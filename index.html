@@ -3,49 +3,208 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Happy Valentine ❤️</title>
-
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-
-    <!-- Custom CSS -->
+    <title>Para Sa'yo ❤️</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- Animated hearts background -->
-    <div class="hearts">
-      <span>❤️</span><span>💖</span><span>💘</span><span>❤️</span>
-    </div>
-
-    <!-- Main content -->
-    <div class="container mt-5">
-      <h1 class="text-center text-danger fw-bold fade-in">
-        nattt ilove you haiz miss na kita uwi kana kaya
-      </h1>
-      <h1 class="lead text-center fade-in delay-1">ILOVEYOU NATHANIEL</h1>
-
-      <div class="text-center mt-4 fade-in delay-2">
-        <img
-          src="images/mypic.jpg"
-          class="img-fluid rounded shadow"
-          style="max-width: 300px"
-          alt="Our Picture"
-        />
-      </div>
-
-      <div class="mt-5 fade-in delay-3">
-        <p class="fs-4 text-center">This page is specially made for you 💖</p>
-        <p class="fs-5 text-center">Scroll down for more surprises...</p>
-      </div>
-
-      <div class="mt-5 fade-in delay-4">
-        <p class="fs-5 text-center">
-          You are amazing and I hope this day brings you joy! 🌹
+    <!-- Section 1: Home -->
+    <section id="home" class="section hero-section">
+      <div class="overlay"></div>
+      <div class="content">
+        <h1 class="fade-in">Happy Valentine's Day!</h1>
+        <p class="fade-in delay-1">
+          Para sa pinakamamahal kong tao sa buong mundo
         </p>
+        <button class="btn fade-in delay-2" onclick="scrollToSection('#about')">
+          Scroll Down ❤️
+        </button>
       </div>
+    </section>
+
+    <!-- Section 2: About -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <h2 class="section-title slide-up">OUR MEMORIES</h2>
+        <div class="content-box">
+          <div class="text-content slide-left">
+            <h3>Paano Tayo Nagsimula</h3>
+            <p>
+              Naaalala ko pa noong una tayong nagkakilala. Parang kahapon lang
+              pero marami na pala tayong naging memories together. Bawat sandali
+              na kasama kita ay special para sa akin.
+            </p>
+            <p>Mahal na mahal kita Man, at sana alam mo yan.</p>
+          </div>
+          <div class="image-box slide-right">
+            <img src="images/1.jpg" alt="Our Picture" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Message -->
+    <section id="message" class="section message-section">
+      <div class="container">
+        <h2 class="section-title slide-up">What My Heart Says</h2>
+        <div class="message-cards">
+          <div class="card slide-up delay-1">
+            <div class="card-icon">❤️</div>
+            <h3>I LOVE YOU</h3>
+            <p>
+              Hindi ko kayang ilarawan kung gaano kita kamahal. Sobra-sobra na.
+            </p>
+          </div>
+          <div class="card slide-up delay-2">
+            <div class="card-icon">🌟</div>
+            <h3>Special Ka</h3>
+            <p>
+              Ikaw ang pinakamagandang nangyari sa buhay ko. Hindi ako nag-iisa
+              dahil mayroon ka.
+            </p>
+          </div>
+          <div class="card slide-up delay-3">
+            <div class="card-icon">💫</div>
+            <h3>Forever</h3>
+            <p>
+              Sana hanggang dulo, ikaw pa rin ang kasama ko sa bawat adventure
+              ng buhay.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Gallery -->
+    <section id="gallery" class="section gallery-section">
+      <div class="container">
+        <h2 class="section-title slide-up">MEMORIES</h2>
+        <div class="gallery-grid">
+          <div class="gallery-item zoom-in">
+            <img src="images/3.jpg" alt="Memory 1" />
+            <div class="overlay-text">Miss Na Kita</div>
+          </div>
+          <div class="gallery-item zoom-in delay-1">
+            <img src="images/2.jpg" alt="Memory 2" />
+            <div class="overlay-text">Sarap Mo Dito Nat</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: Love Letter -->
+    <section id="letter" class="section letter-section">
+      <div class="container">
+        <h2 class="section-title slide-up">Isang Liham Para Sa'yo</h2>
+        <div class="letter-box slide-up delay-1">
+          <div class="letter-header">
+            <p>My Dearest,</p>
+          </div>
+          <div class="letter-body">
+            <p>
+              Gusto ko lang sabihin na mahal na mahal kita Man. Kahit gaano nasa
+              makati ka man , hindi ito hadlang para sa pagmamahal ko sa'yo.
+            </p>
+            <p>
+              Bawat araw na wala ka, parang kulang ang mundo ko. Pero alam kong
+              balang araw, magkakasama na tayo ng todo.
+            </p>
+            <p>
+              Salamat sa lahat ng suporta mo. Salamat sa pagiging patient.
+              Salamat sa pagmamahal mo sa akin kahit may mga pagkakamali ako.
+            </p>
+            <p>Hanggang dulo, ikaw lang.</p>
+          </div>
+          <div class="letter-footer">
+            <p>With all my love,</p>
+            <p><strong>Your Name</strong></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-text">
+            <h3>❤️ Salamat sa pag-scroll hanggang dito! ❤️</h3>
+            <p>
+              Gumawa ako ng page na ito para ipakita ang pagmamahal ko sa'yo.
+            </p>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-icon">📱</a>
+            <a href="#" class="social-icon">💌</a>
+            <a href="#" class="social-icon">✨</a>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2024 - Para sa pinakamamahal kong tao</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress-container">
+      <div class="scroll-progress-bar" id="progressBar"></div>
     </div>
+
+    <script>
+      // Smooth scrolling for navigation links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          }
+        });
+      });
+
+      // Scroll to section function
+      function scrollToSection(sectionId) {
+        const section = document.querySelector(sectionId);
+        if (section) {
+          section.scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+          });
+        }
+      }
+
+      // Scroll progress indicator
+      window.addEventListener("scroll", function () {
+        const scrollTop = document.documentElement.scrollTop;
+        const scrollHeight = document.documentElement.scrollHeight;
+        const clientHeight = document.documentElement.clientHeight;
+        const scrolled = (scrollTop / (scrollHeight - clientHeight)) * 100;
+        document.getElementById("progressBar").style.width = scrolled + "%";
+      });
+
+      // Animation on scroll
+      const observerOptions = {
+        threshold: 0.1,
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          }
+        });
+      }, observerOptions);
+
+      // Observe elements with animations
+      document
+        .querySelectorAll(
+          ".fade-in, .slide-up, .slide-left, .slide-right, .zoom-in"
+        )
+        .forEach((el) => {
+          observer.observe(el);
+        });
+    </script>
   </body>
 </html>
